@@ -1,0 +1,63 @@
+{
+  "docs": [
+      {
+          "keyword": "HD",
+          "aliases": [],
+          "action": "CONSULTA_DECO_HD",
+          "country": "AR",
+          "ifAloneGoToBot": false,
+          "ActiveUntil": "2050-03-14T00:00:00.000-03:00"
+      },
+      
+      {
+          "keyword": "SOS",
+          "aliases": [
+              "OSO"
+          ],
+          "action": "REDIRECT_LIM",
+          "country": "AR",
+          "ifAloneGoToBot": true,
+          "ActiveUntil": "2027-05-09T00:00:00.000-03:00"
+      },
+      {
+          "keyword": "ECHO",
+          "aliases": [],
+          "action": "ECHO",
+          "country": "AR",
+          "ifAloneGoToBot": false,
+          "ActiveUntil": "2050-03-14T00:00:00.000-03:00"
+      },
+      {
+          "keyword": "FUTBOL",
+          "aliases": [
+              "FUTBAL",
+              "FUBTOL",
+              "FOOTBAL",
+              "FUTBALL",
+              "FOOTBOLL",
+              "FULVO",
+              "FUBOL",
+              "FOOTBOL",
+              "FOTBAL",
+              "QUIEROFUBOL",
+              "FTBOL",
+              "QIEROFUTBOL",
+              "FUTBOOL",
+              "FUTBOLL",
+              "QUIEROFUTBOL",
+              "FUDBOL",
+              "FULBO",
+              "QIEROFUBOL",
+              "FOTBOL",
+              "KIEROFUTBOL",
+              "FUTVOL",
+              "KIEROFUBOL",
+              "FOOTBALL"
+          ],
+          "action": "COMPRA_PRODUCTO_V2",
+          "country": "AR",
+          "ifAloneGoToBot": false,
+          "ActiveUntil": "2050-03-14T00:00:00.000-03:00"
+      }
+  ]
+}
