@@ -5,7 +5,7 @@ let connection
 let listKeywords = null
 
 let cron_exp
-if (process.env.AMBIENTE !== 'prod') {
+if (process.env.NODE_ENV !== 'prod') {
   cron_exp = '0 */1 * * * *'; // cada 1 minutos;
 } else {
   cron_exp = '0 */5 * * * *'; // cada 5 minutos;
