@@ -12,13 +12,13 @@ router.get("/healthz", (req, res) => {
   res.send("ok");
 });
 
-router.post("/keyword-parser", async (request, response) {
+router.post("/keyword-parser", async (request, response) => {
   console.log("Incoming msg : " + JSON.stringify(request.body));
 
-  var country = request.body.pais;
-  var message = request.body.payload;
-  var cant = message.split(" ").length;
-  var msg = message.split(" ")[0];
+  const country = request.body.pais;
+  const message = request.body.payload;
+  const cant = message.split(" ").length;
+  const msg = message.split(" ")[0];
 
   console.log(cant);
 
